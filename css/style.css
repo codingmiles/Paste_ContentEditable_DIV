@@ -1,0 +1,15 @@
+.editablediv {
+	cursor: text;
+	border: 1px solid #ccc;
+	font: medium -moz-fixed;
+	font: -webkit-small-control;
+	width: 97%;
+	height: 500px;
+	overflow: auto;
+	padding: 2px;
+	resize: both;
+	-moz-box-shadow: inset 0px 1px 2px #ccc;
+	-webkit-box-shadow: inset 0px 1px 2px #ccc;
+	box-shadow: inset 0px 1px 2px #ccc;
+	margin: 10px auto;
+}
