@@ -1,5 +1,5 @@
 if(document.attachEvent) {
-	document.attachEvent('paste', onPasteTriggered);
+	document.attachEvent('onpaste', onPasteTriggered);
 }
 else if(document.addEventListener) {
 	document.addEventListener('paste', onPasteTriggered, false);
